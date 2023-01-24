@@ -1,4 +1,5 @@
 {
+    "allowSyntheticDefaultImports": true,
     "compilerOptions": {
         "outDir": "./dist/",
         "noImplicitAny": true,
@@ -11,6 +12,7 @@
     },
     "esModuleInterop": true,
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "./dist/**/*"
     ],
 }
